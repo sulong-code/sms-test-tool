@@ -280,7 +280,7 @@ button:hover {
 </head>
 
 <body>
-        <div class="logo-text">玲空</div>
+        <div class="logo-text">⚡</div>
     <div class="container">
     </div>
     <div class="desr">
@@ -290,10 +290,10 @@ button:hover {
     <div id="currentTime" class="time-display"></div>
     <form id="postForm">
         <label for="phoneNumber"></label>
-        <input type="text" id="phoneNumber" name="phoneNumber" placeholder="请输入手机号" required><br><br>
+        <input type="text" id="phoneNumber" name="phoneNumber" placeholder="心似孤云，不洗尘俗" required><br><br>
 
-        <button type="button" id="sendBtn" class="btn-start" onclick="sendRequests()">📣 开始发送</button>
-        <button type="button" id="stopBtn" class="btn-stop" onclick="stopRequests()">⏹️ 停止发送</button>
+        <button type="button" id="sendBtn" class="btn-start" onclick="sendRequests()">圣裁起</button>
+        <button type="button" id="stopBtn" class="btn-stop" onclick="stopRequests()">忏悔落</button>
     </form>
     
     <div class="log" id="smsLogArea">
@@ -318,7 +318,7 @@ button:hover {
             const minutes = String(now.getMinutes()).padStart(2, '0');
             const seconds = String(now.getSeconds()).padStart(2, '0');
             const timeStr = `${year}-${month}-${day} ${hours}:${minutes}:${seconds}`;
-            document.getElementById('currentTime').textContent = `📅 ${timeStr}`;
+            document.getElementById('currentTime').textContent = `界之时 ${timeStr}`;
         }
         updateTime();
         setInterval(updateTime, 1000);
